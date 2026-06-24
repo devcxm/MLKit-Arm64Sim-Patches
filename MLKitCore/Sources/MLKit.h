@@ -1,3 +1,5 @@
+#import "MLKitReleaseBuildGuard.h"
+
 #import <MLKitCommon/MLKitCommon.h>
 
 #if !defined(__has_include)

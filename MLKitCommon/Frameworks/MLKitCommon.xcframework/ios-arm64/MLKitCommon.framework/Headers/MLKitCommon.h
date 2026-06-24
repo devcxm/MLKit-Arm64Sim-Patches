@@ -1,3 +1,5 @@
+#import "MLKitReleaseBuildGuard.h"
+
 #import "MLKCustomRemoteModel.h"
 #import "MLKLocalModel.h"
 #import "MLKModelDownloadConditions.h"
