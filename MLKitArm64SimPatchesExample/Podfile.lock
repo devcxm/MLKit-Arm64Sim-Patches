@@ -47,11 +47,11 @@ PODS:
   - PromisesObjC (2.4.1)
 
 DEPENDENCIES:
-  - GoogleMLKit/BarcodeScanning (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `b53b79bff7cb081fcddb2bc8245e9cf4c454fe93`)
-  - MLImage (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `b53b79bff7cb081fcddb2bc8245e9cf4c454fe93`)
-  - MLKitBarcodeScanning (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `b53b79bff7cb081fcddb2bc8245e9cf4c454fe93`)
-  - MLKitCommon (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `b53b79bff7cb081fcddb2bc8245e9cf4c454fe93`)
-  - MLKitVision (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `b53b79bff7cb081fcddb2bc8245e9cf4c454fe93`)
+  - GoogleMLKit/BarcodeScanning (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `dbcd2f765b068298e6322a53d3a494ba2e47a41d`)
+  - MLImage (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `dbcd2f765b068298e6322a53d3a494ba2e47a41d`)
+  - MLKitBarcodeScanning (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `dbcd2f765b068298e6322a53d3a494ba2e47a41d`)
+  - MLKitCommon (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `dbcd2f765b068298e6322a53d3a494ba2e47a41d`)
+  - MLKitVision (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `dbcd2f765b068298e6322a53d3a494ba2e47a41d`)
 
 SPEC REPOS:
   trunk:
@@ -64,36 +64,36 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   GoogleMLKit:
-    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
+    :commit: dbcd2f765b068298e6322a53d3a494ba2e47a41d
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLImage:
-    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
+    :commit: dbcd2f765b068298e6322a53d3a494ba2e47a41d
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLKitBarcodeScanning:
-    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
+    :commit: dbcd2f765b068298e6322a53d3a494ba2e47a41d
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLKitCommon:
-    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
+    :commit: dbcd2f765b068298e6322a53d3a494ba2e47a41d
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLKitVision:
-    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
+    :commit: dbcd2f765b068298e6322a53d3a494ba2e47a41d
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
 
 CHECKOUT OPTIONS:
   GoogleMLKit:
-    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
+    :commit: dbcd2f765b068298e6322a53d3a494ba2e47a41d
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLImage:
-    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
+    :commit: dbcd2f765b068298e6322a53d3a494ba2e47a41d
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLKitBarcodeScanning:
-    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
+    :commit: dbcd2f765b068298e6322a53d3a494ba2e47a41d
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLKitCommon:
-    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
+    :commit: dbcd2f765b068298e6322a53d3a494ba2e47a41d
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLKitVision:
-    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
+    :commit: dbcd2f765b068298e6322a53d3a494ba2e47a41d
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
 
 SPEC CHECKSUMS:

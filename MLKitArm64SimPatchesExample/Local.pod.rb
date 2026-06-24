@@ -11,7 +11,7 @@ end
 def patched_mlkit_pods
   mlkit_patch = {
     :git => "https://github.com/devcxm/MLKit-Arm64Sim-Patches.git",
-    :commit => "b53b79bff7cb081fcddb2bc8245e9cf4c454fe93"
+    :commit => "dbcd2f765b068298e6322a53d3a494ba2e47a41d"
   }
 
   pod "GoogleMLKit/BarcodeScanning", **mlkit_patch
