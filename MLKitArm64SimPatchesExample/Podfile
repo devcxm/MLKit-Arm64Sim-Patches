@@ -1,0 +1,24 @@
+platform :ios, '15.5'
+
+project 'MLKitArm64SimPatchesExample.xcodeproj'
+
+local_pod_config = File.expand_path('Local.pod.rb', __dir__)
+load local_pod_config if File.exist?(local_pod_config)
+
+def mlkit_pods
+  if defined?(local_mlkit_pods)
+    local_mlkit_pods
+  else
+    official_mlkit_pods
+  end
+end
+
+def official_mlkit_pods
+  pod 'GoogleMLKit/BarcodeScanning', '9.0.0'
+end
+
+target 'MLKitArm64SimPatchesExample' do
+  use_frameworks! :linkage => :static
+
+  mlkit_pods
+end

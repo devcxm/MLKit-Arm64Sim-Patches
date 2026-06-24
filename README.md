@@ -51,7 +51,7 @@ Current v9 generated commit:
 ```ruby
 mlkit_patch = {
   :git => 'https://github.com/devcxm/MLKit-Arm64Sim-Patches.git',
-  :commit => '5c69132937694a30dfa27cf4c1b53e4727931ed2'
+  :commit => '37d3be832b8651c0862ff75098b5eddd6b0e46f8'
 }
 
 pod 'GoogleMLKit/BarcodeScanning', **mlkit_patch

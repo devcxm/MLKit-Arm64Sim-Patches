@@ -2,7 +2,7 @@
 xcuserdata/
 *.xcuserstate
 
-MLKitArm64SimPatchesExample/Local.pod.rb
+MLKitArm64SimPatchesExample/Pods/
 /v8/
 /v9/
 __pycache__/
