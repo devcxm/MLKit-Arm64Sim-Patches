@@ -47,11 +47,11 @@ PODS:
   - PromisesObjC (2.4.1)
 
 DEPENDENCIES:
-  - GoogleMLKit/BarcodeScanning (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `37d3be832b8651c0862ff75098b5eddd6b0e46f8`)
-  - MLImage (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `37d3be832b8651c0862ff75098b5eddd6b0e46f8`)
-  - MLKitBarcodeScanning (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `37d3be832b8651c0862ff75098b5eddd6b0e46f8`)
-  - MLKitCommon (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `37d3be832b8651c0862ff75098b5eddd6b0e46f8`)
-  - MLKitVision (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `37d3be832b8651c0862ff75098b5eddd6b0e46f8`)
+  - GoogleMLKit/BarcodeScanning (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `b53b79bff7cb081fcddb2bc8245e9cf4c454fe93`)
+  - MLImage (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `b53b79bff7cb081fcddb2bc8245e9cf4c454fe93`)
+  - MLKitBarcodeScanning (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `b53b79bff7cb081fcddb2bc8245e9cf4c454fe93`)
+  - MLKitCommon (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `b53b79bff7cb081fcddb2bc8245e9cf4c454fe93`)
+  - MLKitVision (from `https://github.com/devcxm/MLKit-Arm64Sim-Patches.git`, commit `b53b79bff7cb081fcddb2bc8245e9cf4c454fe93`)
 
 SPEC REPOS:
   trunk:
@@ -64,36 +64,36 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   GoogleMLKit:
-    :commit: 37d3be832b8651c0862ff75098b5eddd6b0e46f8
+    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLImage:
-    :commit: 37d3be832b8651c0862ff75098b5eddd6b0e46f8
+    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLKitBarcodeScanning:
-    :commit: 37d3be832b8651c0862ff75098b5eddd6b0e46f8
+    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLKitCommon:
-    :commit: 37d3be832b8651c0862ff75098b5eddd6b0e46f8
+    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLKitVision:
-    :commit: 37d3be832b8651c0862ff75098b5eddd6b0e46f8
+    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
 
 CHECKOUT OPTIONS:
   GoogleMLKit:
-    :commit: 37d3be832b8651c0862ff75098b5eddd6b0e46f8
+    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLImage:
-    :commit: 37d3be832b8651c0862ff75098b5eddd6b0e46f8
+    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLKitBarcodeScanning:
-    :commit: 37d3be832b8651c0862ff75098b5eddd6b0e46f8
+    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLKitCommon:
-    :commit: 37d3be832b8651c0862ff75098b5eddd6b0e46f8
+    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
   MLKitVision:
-    :commit: 37d3be832b8651c0862ff75098b5eddd6b0e46f8
+    :commit: b53b79bff7cb081fcddb2bc8245e9cf4c454fe93
     :git: https://github.com/devcxm/MLKit-Arm64Sim-Patches.git
 
 SPEC CHECKSUMS:
@@ -103,9 +103,9 @@ SPEC CHECKSUMS:
   GoogleUtilities: 4f2618a4a1e762a1ee134a1e2323bba9843e06da
   GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
   MLImage: b977326cfaebcaf643a1607dc5b1d4544a3b8e38
-  MLKitBarcodeScanning: be9973b2daaf4189d4d345ce205af834ee0527b0
-  MLKitCommon: b364ee5f261a9d6564b307e7c9d40480f4cf1b81
-  MLKitVision: 9be6a6f3ab11eef9ae851eeb22ab5b0367ab5c21
+  MLKitBarcodeScanning: ecfac56f8142c2a5e64a96ec5141a3a20ac613ec
+  MLKitCommon: 5816246c648c5e5af1809ae12710d08bb1c31599
+  MLKitVision: e2d312fa67d6e7513f7278dc88fc0a0a60e975a9
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
   PromisesObjC: 752c3227f599e3467650e47ea36f433eeb10c273
 
