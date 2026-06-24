@@ -222,10 +222,33 @@ def remove_excluded_archs(value: object) -> None:
             remove_excluded_archs(item)
 
 
+def prefixed_pod_path(value: str, pod_name: str) -> str:
+    if value.startswith(("/", "$(inherited)", "${", "$(")) or value.startswith(f"{pod_name}/"):
+        return value
+    return f"{pod_name}/{value}"
+
+
+def prefix_pod_paths(value: object, pod_name: str) -> object:
+    if isinstance(value, str):
+        return prefixed_pod_path(value, pod_name)
+    if isinstance(value, list):
+        return [prefix_pod_paths(item, pod_name) for item in value]
+    return value
+
+
+def apply_repo_layout_paths(spec: dict, pod_name: str) -> None:
+    if pod_name == "GoogleMLKit":
+        return
+    for key in ("vendored_frameworks", "preserve_paths", "source_files", "resources"):
+        if key in spec:
+            spec[key] = prefix_pod_paths(spec[key], pod_name)
+
+
 def apply_config_overrides(spec: dict, pod_name: str, pods_config: dict) -> dict:
     updated = dict(spec)
     updated["version"] = version_required(pods_config, pod_name)
     remove_excluded_archs(updated)
+    apply_repo_layout_paths(updated, pod_name)
     return updated
 
 
