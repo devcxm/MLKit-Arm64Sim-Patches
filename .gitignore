@@ -1,0 +1,8 @@
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+MLKitArm64SimPatchesExample/Local.pod.rb
+/v8/
+/v9/
+__pycache__/

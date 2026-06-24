@@ -1,0 +1,26 @@
+{
+  "default_patch_pods": [
+    "MLImage",
+    "MLKitCommon",
+    "MLKitVision"
+  ],
+  "name": "v8",
+  "pods": {
+    "GoogleMLKit": {
+      "version": "8.0.0"
+    },
+    "MLImage": {
+      "version": "1.0.0-beta7"
+    },
+    "MLKitCommon": {
+      "version": "13.0.0"
+    },
+    "MLKitVision": {
+      "version": "9.0.0"
+    },
+    "MLKitBarcodeScanning": {
+      "version": "7.0.0"
+    }
+  },
+  "output_dir": "v8"
+}
